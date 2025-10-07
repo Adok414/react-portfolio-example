@@ -1,19 +1,14 @@
 const education = [
     {
-        year: "2020-2021",
-        degree: "Ph.D in Horriblensess",
-        institution: "Harvard University, Cambridge, MA",
+        year: "2017-2021",
+        degree: "Accounting and audit",
+        institution: "Kazakhstan University of Innovative and Telecommunication Systems",
     },
     {
-        year: "2018-2019",
-        degree: "Computer Science",
-        institution: "Imperialize Technical Institute",
+        year: "2013-2017",
+        degree: "Information system",
+        institution: "Caspian Modern Higher College ",
     },
-    {
-        year: "2016-2018",
-        degree: "Graphic Designer",
-        institution: "Web Graphy, Los Angeles, CA",
-    }
     
 ]
 

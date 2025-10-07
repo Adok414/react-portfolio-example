@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import { aboutImg } from '../../assets/images'
+import { aboutImg, portfolio } from '../../assets/images'
 import { FaDownload } from "react-icons/fa";
 import SectionTitle from '../sectionTitle/SectionTitle';
 import { motion } from 'motion/react';
@@ -24,7 +24,7 @@ function About() {
                         viewport={{once: false, amount: 0.5}}   
                         variants={slideInVariants("left", 0.9, 100, false)}
                     >
-                        <img src={aboutImg} alt="about"/>
+                        <img src={portfolio} alt="about"/>
                     </motion.div>
                     <div className="about-info">
                         <div className="description">
@@ -35,7 +35,7 @@ function About() {
                                 custom={0}
                                 variants={slideInVariants("right", 0.5, 50, true)}
                             >
-                                I'm Ilay
+                                I'm Adilbek
                             </motion.h3>
                             <motion.h4
                                 initial="hidden"
@@ -44,7 +44,7 @@ function About() {
                                 custom={0}
                                 variants={slideInVariants("right", 0.5, 50, true)}
                             >
-                                A Lead <span>Front-End Developer</span> based in <span>California</span>
+                                A Lead <span>Full-Stack Developer</span> based in <span>Atyrau</span>
                             </motion.h4>
                             <motion.p
                                 initial="hidden"
@@ -74,7 +74,7 @@ function About() {
                                 </motion.li>
                             ))}
                         </ul>
-                        <motion.a href="" className="inner-info-link"
+                        <motion.a href="/Profile.pdf" download className="inner-info-link"
                             custom={3}
                             variants={slideInVariants("bottom", 0.7, 60, false)}
                             initial="hidden"

@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaGithub } from "react-icons/fa6";
+import { FaWhatsapp, FaInstagram, FaGithub } from "react-icons/fa6";
 
 export const infoLinks = [
     { id: 1, href: "skills", label: "skills" },
@@ -8,7 +8,7 @@ export const infoLinks = [
 ];
 
 export const followLinks = [
-    { id: 1, href: "https://facebook.com", icon: FaFacebook },
-    { id: 2, href: "https://instagram.com", icon: FaInstagram },
-    { id: 3, href: "https://github.com", icon: FaGithub },
+    { id: 1, href: "https://wa.me/87759536877", icon: FaWhatsapp},
+    { id: 2, href: "https://www.instagram.com/adilbektokishov/", icon: FaInstagram },
+    { id: 3, href: "https://github.com/Adok414", icon: FaGithub },
 ];

@@ -11,8 +11,8 @@ function Footer() {
           <footer className="footer">
               <div className="container footer-wrapper">
                   <div className="about-group">
-                      <h2>Ilay</h2>
-                      <p>Frontend Developer</p>
+                      <h2>ATR11</h2>
+                      <p>Full-Stack Web Developer</p>
                       <a href="#about">About me</a>
                   </div>
                   <div className="hr"></div>
@@ -22,7 +22,7 @@ function Footer() {
                   <FooterLinkGroup title="Follow" links={followLinks} isSocial={true}/>
                   
               </div>
-              <p className="footer-copyright">© <span className="year">{currentYear}</span> by Coding Snow. All rights reserved.</p>
+              <p className="footer-copyright">© <span className="year">{currentYear}</span> by Adilbek Tokishov. All rights reserved.</p>
           </footer>
   )
 }

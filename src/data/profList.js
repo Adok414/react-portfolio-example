@@ -2,7 +2,7 @@
 export const profList = [
     {
         id: 1,
-        number: "5+",
+        number: "1+",
         text: "Years of experience",
     },
      {

@@ -10,6 +10,8 @@ import portfolio4 from "./portfolio-4.webp"
 import portfolio5 from "./portfolio-5.webp"
 import portfolio6 from "./portfolio-6.webp"
 import shape from "./Shape.png"
+import portfolio from "./portfolio.png"
+
 
 
 
@@ -25,5 +27,6 @@ export {
     portfolio4,
     portfolio5,
     portfolio6,
-    shape
+    shape,
+    portfolio
 }

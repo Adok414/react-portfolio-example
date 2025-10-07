@@ -1,18 +1,18 @@
 const awards = [
     {
-        year: "2021",
-        title: "Best Developer",
-        institution: "University Of Melbourne, NA",
-    },
-    {
-        year: "2020",
-        title: "Best Writter",
-        institution: "Online Typodev Soluation Ltd.",
+        year: "2025",
+        title: "Meta Full-Stack Web Developer",
+        institution: "Amjilt Cyber Academy",
     },
     {
         year: "2019",
-        title: "Best Freelancer",
-        institution: "Fiver & Upwork Level 2 & Top Rated",
+        title: "English language",
+        institution: "British English",
+    },
+    {
+        year: "2021",
+        title: "1C accounting",
+        institution: "1C accounting and auditing",
     },
 ]
 

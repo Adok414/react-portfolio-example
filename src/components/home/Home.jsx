@@ -1,7 +1,7 @@
 import "./Home.css"
-import { FaFacebookF, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram, FaGithub } from "react-icons/fa";
 import { FaCircleArrowRight, FaArrowDownLong } from "react-icons/fa6";
-import { mainImg } from "../../assets/images";
+import { mainImg, portfolio } from "../../assets/images";
 import { motion } from "motion/react";
 import { iconVariants, slideInVariants } from "../../utils/animation";
 
@@ -10,9 +10,9 @@ import { iconVariants, slideInVariants } from "../../utils/animation";
 function Home() {
 
     const icons = [
-        { id: 1, href: "", icon: <FaFacebookF /> },
-        { id: 2, href: "", icon: <FaInstagram /> },
-        { id: 3, href: "", icon: <FaGithub /> },
+        { id: 1, href: "https://wa.me/87759536877", icon: <FaWhatsapp /> },
+        { id: 2, href: "https://www.instagram.com/adilbektokishov/", icon: <FaInstagram /> },
+        { id: 3, href: "https://github.com/Adok414", icon: <FaGithub /> },
     ];
 
   return (
@@ -23,6 +23,7 @@ function Home() {
                 <div className="media-icons">
                     {icons.map((item, index) => (
                        <motion.a 
+                            target="_blank"
                             href={item.href} 
                             key={item.id}
                             custom={index}
@@ -45,14 +46,14 @@ function Home() {
                         viewport={{once: false, amount: 0.5}}   
                         custom={0}
                         variants={slideInVariants("left", 0.5, 50, true)} 
-                    >Hi, I am Ilay</motion.h1>
+                    >Hi, I am Adilbek</motion.h1>
                     <motion.h3
                         initial="hidden"
                         whileInView="visible"
                         viewport={{once: false, amount: 0.5}}   
                         custom={1}
                         variants={slideInVariants("left", 0.7, 50, true)}
-                    >Front-end Developer</motion.h3>
+                    >Full-Stack Developer</motion.h3>
                     <motion.p
                         initial="hidden"
                         whileInView="visible"
@@ -80,7 +81,7 @@ function Home() {
                     viewport={{once: false, amount: 0.5}}   
                     variants={slideInVariants("right", 0.5, 150, false)}
                 >
-                    <img src={mainImg} alt="man"/>
+                    <img src={portfolio} alt="man"/>
                 </motion.div>
             </div>
             <a href="#about" className="scroll-down">

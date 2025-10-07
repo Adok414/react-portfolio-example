@@ -21,7 +21,7 @@ function GetInTouch() {
                             <h2>NEXT PROJECT</h2>
                         </motion.div>
                         <motion.a 
-                            href="" 
+                            href="https://wa.me/87759536877" target="_blank"
                             className="get-in-touch-link inner-info-link"
                             initial="hidden"
                             whileInView="visible"

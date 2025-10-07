@@ -36,7 +36,7 @@ const handleScroll = () => {
       <header className={isSticky ? "header sticky" : "header"}>
         <div className="container">
             <div className="header-wrapper">
-                <a href="" className="logo">Ilay</a>
+                <a href="" className="logo">ATR11</a>
                 <RemoveScroll enabled={isMenuOpen}>
                   <Nav isMenuOpen={isMenuOpen} handleMenuClick={handleMenuClick}/>
                 </RemoveScroll>
